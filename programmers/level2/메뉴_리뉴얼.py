@@ -22,7 +22,6 @@ def solution(orders, course):
       answer.append(''.join(list(ch)))
     arrs = []
 
-
   return sorted(answer)
 
 print(solution(["ABCFG", "AC", "CDE", "ACDE", "BCFG", "ACDEH"], [2, 3, 4]))
